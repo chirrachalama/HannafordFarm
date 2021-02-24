@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NurtureFarm Suite">
+<listeners>
+	<listener class-name="com.nurture.Listeners.TestListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    
+ <!--    <groups>
+    	<run>
+    		<include name="Regression Test"></include>
+    	</run>
+    </groups> -->
+    
+    <classes>
+    	 <class name="com.nurture.TestCases.SignupTest"/> 
+       <class name="com.nurture.TestCases.ManualLoginTest"/>
+      <class name="com.nurture.TestCases.BuyersDashboardTest"/>
+      <class name="com.nurture.TestCases.SellersDashboardTest"/>
+       <class name="com.nurture.TestCases.ListingsTest"/>
+       <class name="com.nurture.TestCases.RegistrationTest"/>
+       <class name="com.nurture.TestCases.ProfileTest"/>
+       <class name="com.nurture.TestCases.CreateListingTest"/>
+      <class name="com.nurture.TestCases.DeleteListingTest"/>
+      <class name="com.nurture.TestCases.Contract_OrdersTest"/>
+       <class name="com.nurture.TestCases.RejectContractTest"/>
+      
+     
+     
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
