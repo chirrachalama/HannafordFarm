@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 43, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1,150.663 s <<< FAILURE! - in TestSuite
+com.nurture.TestCases.BuyersDashboardTest.BuyerDashboard  Time elapsed: 10.674 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="nav-link dashboard-tab" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="false">...</a> is not clickable at point (416, 591). Other element would receive the click: <div class="ticker-wrap">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHALAMA', ip: '10.2.0.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\CHALAMA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d36c69916caef3aef8c67d2d7f22f2c3
+	at com.nurture.TestCases.BuyersDashboardTest.BuyerDashboard(BuyersDashboardTest.java:14)
+

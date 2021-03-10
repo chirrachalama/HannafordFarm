@@ -1,5 +1,6 @@
 package com.nurture.PageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -40,6 +41,10 @@ public class BuyersDashboard extends TestBase{
 		ClickOnLogin.click();
 		Thread.sleep(3000);
 		ClickOnActivity.click();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		Thread.sleep(3000);
+		js.executeScript("window.scrollBy(0,200)");
+		Thread.sleep(3000);
 		BuyersDashboard.click();
 		Thread.sleep(4000);
 		String startexploring=BuyersDashboard.getText();

@@ -1,7 +1,9 @@
 package com.nurture.PageObjects;
 
 import java.io.IOException;
+import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -41,20 +43,26 @@ WebElement yourAddress;
 @FindBy(xpath="//input[@placeholder='ex. New Canberra']")
 WebElement LocalityTown;
 
-@FindBy(id="identityProof")
-WebElement Statee;
+@FindBy(xpath="(//div[@class=' css-1hwfws3'])[1]")
+WebElement PickupState;
 
-@FindBy(xpath="//div[@class=' css-1hwfws3']//div[1]")
+@FindBy(xpath="//*[text()='Queensland']")
 WebElement selectstate;
 
 @FindBy(xpath="//button[text()='Next']")
 WebElement Next;
 
-@FindBy(xpath="(//input[@name='exampleRadios']/following-sibling::span)[1]")
+@FindBy(xpath="(//div[@class=' css-1hwfws3'])[1]")
 WebElement CropCategory;
 
-@FindBy(xpath="//input[@placeholder='Choose Category']")
-WebElement WheatVariety;
+@FindBy(xpath="//*[text()='Field Pea']")
+WebElement SelectCrop;
+
+@FindBy(xpath="(//div[@class=' css-1hwfws3'])[2]")
+WebElement Variety;
+
+@FindBy(xpath="//*[text()='Helena']")
+WebElement SelectVariety;
 
 
 @FindBy(xpath="//input[@step='1']")
@@ -66,7 +74,10 @@ WebElement MinimumQuality;
 @FindBy(xpath="(//input[@id='state'])[3]")
 WebElement Price;
 
-@FindBy(id="identityProof")
+@FindBy(xpath="//div[@class=' css-1hwfws3']")
+WebElement Season;
+
+@FindBy(xpath="//*[text()='2021']")
 WebElement SelectSeason;
 
 @FindBy(xpath="//div[@id='root']/div[1]/div[2]/div[2]/div[1]/div[8]/div[1]/div[1]/label[1]/i[1]")
@@ -146,22 +157,23 @@ public void CreateListManual(String ListHead, String ListDesc,String seedQuantit
 //	LocalityTown.clear();
 //	Thread.sleep(2000);
 	LocalityTown.sendKeys(Locality);
-	Thread.sleep(1000);
-//	Select selectstate=new Select(Statee);
-//	selectstate.selectByIndex(2);
+	Thread.sleep(3000);
+	PickupState.click();
+	Thread.sleep(3000);
 	selectstate.click();
-	Thread.sleep(1000);
-	selectstate.click();
-	Thread.sleep(2000);
+	Thread.sleep(3000);
 	Next.click();
 	Thread.sleep(3000);
 	
 	CropCategory.click();
 	Thread.sleep(2000);
-	WheatVariety.click();
+	SelectCrop.click();
 	Thread.sleep(3000);
-	WheatVariety.sendKeys("Bremer");
+	Variety.click();
 	Thread.sleep(3000);
+	SelectVariety.click();
+	Thread.sleep(3000);
+
 	js.executeScript("window.scrollBy(0,800)");
 	Thread.sleep(3000);
 	Next.click();
@@ -173,10 +185,11 @@ public void CreateListManual(String ListHead, String ListDesc,String seedQuantit
 	Thread.sleep(3000);
 	Price.sendKeys(SeedPrice);
 	Thread.sleep(4000);
+	Season.click();
+	Thread.sleep(3000);
+	SelectSeason.click();
+	Thread.sleep(3000);
 	
-//	Select slt=new Select(SelectSeason);
-//	slt.selectByIndex(1);
-//	Thread.sleep(4000);
 	js.executeScript("window.scrollBy(0,1000)");
 	Thread.sleep(3000);
 	
@@ -192,8 +205,14 @@ public void CreateListManual(String ListHead, String ListDesc,String seedQuantit
 	CreatListing.click();
 	Thread.sleep(3000);
 	ViewDashboard.click();
-	Thread.sleep(3000);
+	Thread.sleep(3000);   
 	
-}
+ }
 
 }
+
+
+
+ 
+
+

@@ -43,11 +43,12 @@ public class RejectContract extends TestBase {
 		System.out.println("Login with Buyer Account");
 		
 	}
-	@FindBy(xpath="//div[@id='home']/div[2]/div[2]/div[1]/div[1]/section[1]/section[1]/section[2]/div[1]/div[2]/label[1]/span[1]")
-	WebElement SelectVariety;
 	
-	@FindBy(xpath="//div[@id='home']/div[2]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]")
-	WebElement SelectListing;
+	@FindBy(xpath="(//label[@for='Milling Oat'])[1]")
+	WebElement SelectCrop;
+
+	@FindBy(xpath="(//label[text()='Mitika'])[1]")
+	WebElement SelecVariety;
 
 	@FindBy(xpath="//button[text()='Buy']")
 	public WebElement BuyButton;
@@ -67,22 +68,27 @@ public class RejectContract extends TestBase {
 	@FindBy(xpath="(//a[@class='dropdown-item '])[3]")
 	WebElement ClickOnLogout;
 
-	@FindBy(xpath="(//span[text()='LongReach Cobra Seeds for sale at 300AUD'])[1]")
+	@FindBy(xpath="(//span[text()='Milling Oats healthiest grains on earth'])[1]")
 	 public WebElement Listingheadline;
 	 
 					public void sharecontract() throws InterruptedException
 					{
 						Thread.sleep(2000);
 						JavascriptExecutor js = (JavascriptExecutor) driver;
-						js.executeScript("window.scrollBy(0,400)");
+						js.executeScript("window.scrollBy(0,300)");
 						Thread.sleep(3000);
 						
-						SelectVariety.click();
+						SelectCrop.click();
 						Thread.sleep(3000);
+						js.executeScript("window.scrollBy(0,100)");
+						Thread.sleep(3000);
+						SelecVariety.click();
+						Thread.sleep(3000);
+						
 						
 						 String ActHeadline=Listingheadline.getText();
 						 System.out.println(ActHeadline);
-						 String ExpText="LongReach Cobra Seeds for sale at 300AUD";
+						 String ExpText="Milling Oats healthiest grains on earth";
 						 
 						 if(ActHeadline.equalsIgnoreCase(ExpText))
 							 

@@ -40,16 +40,17 @@ public void LoginWithBuyerUser(String buyerEmail,String Password) throws Interru
 	Thread.sleep(1000);
 	
 	ClickOnLogin.click();
-	Thread.sleep(3000);
+	Thread.sleep(5000);
 	
-	System.out.println("Login with Buyer Account");
+	System.out.println("Buyer Account Login successfully");
 	
 }
-@FindBy(xpath="//div[@id='home']/div[2]/div[2]/div[1]/div[1]/section[1]/section[1]/section[2]/div[1]/div[2]/label[1]/span[1]")
-WebElement SelectVariety;
 
-@FindBy(xpath="//div[@id='home']/div[2]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]")
-WebElement SelectListing;
+@FindBy(xpath="(//label[@for='Milling Oat'])[1]")
+WebElement SelectCrop;
+
+@FindBy(xpath="(//label[text()='Mitika'])[1]")
+WebElement SelecVariety;
 
 @FindBy(xpath="//button[text()='Buy']")
 public WebElement BuyButton;
@@ -69,9 +70,11 @@ WebElement MousehoverToUser;
 @FindBy(xpath="(//a[@class='dropdown-item '])[3]")
 WebElement ClickOnLogout;
 
-@FindBy(xpath="(//span[text()='LongReach Cobra Seeds for sale at 300AUD'])[1]")
+@FindBy(xpath="(//span[text()='Milling Oats healthiest grains on earth'])[1]")
  public WebElement Listingheadline;
  
+
+
 				public void sharecontract() throws InterruptedException
 				{
 					Thread.sleep(2000);
@@ -79,12 +82,17 @@ WebElement ClickOnLogout;
 					js.executeScript("window.scrollBy(0,300)");
 					Thread.sleep(3000);
 					
-					SelectVariety.click();
+					SelectCrop.click();
 					Thread.sleep(3000);
+					js.executeScript("window.scrollBy(0,100)");
+					Thread.sleep(3000);
+					SelecVariety.click();
+					Thread.sleep(3000);
+					
 					
 					 String ActHeadline=Listingheadline.getText();
 					 System.out.println(ActHeadline);
-					 String ExpText="LongReach Cobra Seeds for sale at 300AUD";
+					 String ExpText="Milling Oats healthiest grains on earth";
 					 
 					 if(ActHeadline.equalsIgnoreCase(ExpText))
 						 
@@ -123,6 +131,7 @@ WebElement ClickOnLogout;
 					
 					ClickOnLogout.click();
 					Thread.sleep(3000);
+					System.out.println("Buyer-->Contract Shared Successfully");
 					
 				}
 
@@ -135,7 +144,7 @@ WebElement ClickOnLogout;
 						Thread.sleep(1000);
 						ClickOnLogin.click();
 						Thread.sleep(3000);
-						System.out.println("Login with seller Account");
+						System.out.println("Seller Account Login Successfully");
 					}
 
 @FindBy(xpath="//a[normalize-space()='Orders']")
@@ -168,7 +177,7 @@ WebElement Okay;
 						Thread.sleep(2000);
 						if(Text.equalsIgnoreCase("Contract Approved Successfully")) 
 						{
-							System.out.println("Contract is Approved Successfully");
+							System.out.println("Buyer-->Contract is Approved Successfully");
 						}
 						else
 						{
@@ -237,7 +246,7 @@ WebElement ViewOrderss;
 						Thread.sleep(3000);
 						ClickOnLogout.click();
 						Thread.sleep(3000);
-						
+						System.out.println("Buyer will process the Payement");
 					}
 					
 	@FindBy(xpath="(//button[text()='Initiate Payment'])[1]")
@@ -281,6 +290,7 @@ WebElement ViewOrderss;
 						Thread.sleep(3000);
 						ClickOnLogout.click();
 						Thread.sleep(3000);
+						System.out.println("Seller initiate the payement success");
 						
 					}
 					

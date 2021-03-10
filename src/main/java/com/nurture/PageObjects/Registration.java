@@ -22,13 +22,13 @@ public class Registration extends TestBase {
 	@FindBy(xpath="//p[text()='Click here to add a photo']")
 	public WebElement AddPhoto;
 
-	@FindBy(xpath="/html/body/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[2]/form/div[1]/div[1]/div[1]/div/div/div[1]/div/input")
+	@FindBy(xpath="(//input[@placeholder='ex. claire Simpson'])[1]")
 	public WebElement Fullname;
 
-	@FindBy(xpath="/html/body/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[2]/form/div[1]/div[1]/div[2]/div/div/div[1]/div/input")
+	@FindBy(xpath="//input[@placeholder='ex. I am a seller...']")
 	public WebElement Shortbio;
 
-	@FindBy(xpath="/html/body/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[2]/form/div[2]/div[1]/div/div[1]/div/input")
+	@FindBy(xpath="(//input[@placeholder='ex. claire Simpson'])[2]")
 	public WebElement BusinessName;
 
 	@FindBy(id="businessEmail")
@@ -40,10 +40,10 @@ public class Registration extends TestBase {
 	@FindBy(id="businessPhone")
 	public WebElement BusinessPhonenumber;
 	
-	@FindBy(xpath="/html/body/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[2]/form/div[4]/div[1]/div/input")
+	@FindBy(xpath="(//input[@id='nationalGrowerRegister'])[1]")
 	public WebElement ABN;
 	
-	@FindBy(xpath="/html/body/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div/div[2]/form/div[4]/div[2]/div/div")
+	@FindBy(xpath="(//input[@id='nationalGrowerRegister'])[2]")
 	public WebElement ABNdocument;
 
 	@FindBy(xpath="(//input[@id='nationalGrowerRegister'])[2]")
@@ -61,8 +61,11 @@ public class Registration extends TestBase {
 	@FindBy(xpath="//input[@placeholder='ex. NEW CANBERRA']")
 	public WebElement Locality;
 	
-	@FindBy(id="identityProof")
+	@FindBy(xpath="//div[@class=' css-1hwfws3']")
 	public WebElement State;
+	
+	@FindBy(xpath="//*[text()='Tasmania']")
+	public WebElement SelectState;
 
 	@FindBy(xpath="//button[text()='Next']")
 	public WebElement Next;
@@ -157,8 +160,9 @@ public class Registration extends TestBase {
 		Thread.sleep(3000);
 		Locality.sendKeys(town);
 		Thread.sleep(3000);
-		Select slx = new Select(State);
-		slx.selectByIndex(1);
+		State.click();
+		Thread.sleep(3000);
+		SelectState.click();
 		Thread.sleep(3000);
 		js.executeScript("window.scrollBy(0,400)");
 		Thread.sleep(3000);
@@ -305,7 +309,7 @@ public class Registration extends TestBase {
 			System.out.println("User Verified-->Registration Completed");
 		}
 		else {
-			System.out.println("User Verification Pending-->Registration Completed");
+			System.out.println("User Verification Pending-->Registration not Completed");
 		}
 		Thread.sleep(2000);
 		

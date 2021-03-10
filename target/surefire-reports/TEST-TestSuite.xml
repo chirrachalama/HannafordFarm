@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,150.663" tests="43" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="F:\ChromeDriver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\target\test-classes;C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\target\classes;C:\Users\CHALAMA\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\CHALAMA\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\CHALAMA\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\CHALAMA\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\CHALAMA\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\CHALAMA\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\CHALAMA\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\CHALAMA\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\CHALAMA\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\CHALAMA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\CHALAMA\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\CHALAMA\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\CHALAMA\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\CHALAMA\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\CHALAMA\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\CHALAMA\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\CHALAMA\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\CHALAMA\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\CHALAMA\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\CHALAMA\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\CHALAMA\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi-scratchpad\4.0.0\poi-scratchpad-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\CHALAMA\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\CHALAMA\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\CHALAMA\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\CHALAMA\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\CHALAMA\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\CHALAMA\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\CHALAMA\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\CHALAMA\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\CHALAMA\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\CHALAMA\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\CHALAMA\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\CHALAMA\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\CHALAMA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\CHALAMA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\CHALAMA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\CHALAMA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\CHALAMA\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="sun.java.command" value="C:\Users\CHALAMA\AppData\Local\Temp\surefire16690278358911500502\surefirebooter17008833850557706844.jar C:\Users\CHALAMA\AppData\Local\Temp\surefire16690278358911500502 2021-02-25T01-16-41_961-jvmRun1 surefire18345618493376027726tmp surefire_012734383589131274042tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\target\test-classes;C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\target\classes;C:\Users\CHALAMA\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\CHALAMA\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\CHALAMA\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\CHALAMA\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\CHALAMA\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\CHALAMA\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\CHALAMA\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\CHALAMA\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\CHALAMA\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\CHALAMA\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\CHALAMA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\CHALAMA\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\CHALAMA\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\CHALAMA\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\CHALAMA\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\CHALAMA\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\CHALAMA\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\CHALAMA\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\CHALAMA\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi-ooxml\4.0.0\poi-ooxml-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\CHALAMA\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\CHALAMA\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi\4.0.0\poi-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\CHALAMA\.m2\repository\org\apache\commons\commons-collections4\4.2\commons-collections4-4.2.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.0.0\poi-ooxml-schemas-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\xmlbeans\xmlbeans\3.0.1\xmlbeans-3.0.1.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\poi-scratchpad\4.0.0\poi-scratchpad-4.0.0.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\ooxml-schemas\1.1\ooxml-schemas-1.1.jar;C:\Users\CHALAMA\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\CHALAMA\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\CHALAMA\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\CHALAMA\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\CHALAMA\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\CHALAMA\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\CHALAMA\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\CHALAMA\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\CHALAMA\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\CHALAMA\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\CHALAMA\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\CHALAMA\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\CHALAMA\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\CHALAMA\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\CHALAMA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\CHALAMA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\CHALAMA\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\CHALAMA\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\CHALAMA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\CHALAMA\AppData\Local\Temp\surefire16690278358911500502\surefirebooter17008833850557706844.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="CHALAMA"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\CHALAMA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\CHALAMA\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.dir" value="C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\CHALAMA\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\app\CHALAMA\product\11.2.0\dbhome_1\bin;C:\jdk1.8.0_91\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;F:\Driver server\chromedriver.exe;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\CHALAMA\AppData\Local\Android\Sdk\platform-tools;C:\Users\CHALAMA\AppData\Local\Android\Sdk\tools;C:\Users\CHALAMA\AppData\Local\Android\Sdk\build-tools;C:\Program Files\Java\jdk-11.0.9\bin;C:\Users\CHALAMA\Downloads\apache-maven-3.6.3\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="ValidSignupDetails[Alice, Hazel, Vnc@2020, Vnc@2020, nurture8007@gmail.com](1)" classname="com.nurture.TestCases.SignupTest" time="43.677">
+    <system-out><![CDATA[Directory already exists: C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\TestReport
+ExtentReport Path for WINDOWS: C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\TestReport
+
+**********NurtureFarm Test Suite started**************
+ValidSignupDetails started
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 8742
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:17:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="InvalidSignup[12#@@13334, 123$%%^^&amp;134, 31726!&amp;!^, %$#%13133, 12143212465@gmail.com](1)" classname="com.nurture.TestCases.SignupTest" time="22.681">
+    <system-out><![CDATA[ValidSignupDetails passed
+InvalidSignup started
+]]></system-out>
+  </testcase>
+  <testcase name="InvalidSignup[Olivia, Ella, nurture12, nurture12, nurture12@gmail.com](2)" classname="com.nurture.TestCases.SignupTest" time="22.694">
+    <system-out><![CDATA[InvalidSignup passed
+InvalidSignup started
+]]></system-out>
+  </testcase>
+  <testcase name="InvalidSignup[samson, Max, nurture12, QWEEEqrtt234, nurture15@gmail.com](3)" classname="com.nurture.TestCases.SignupTest" time="22.113">
+    <system-out><![CDATA[InvalidSignup passed
+InvalidSignup started
+]]></system-out>
+  </testcase>
+  <testcase name="InvalidSignup[Chole, Harper, Nurture@12, Nurture@12, Nurture1!@12@gmail.com](4)" classname="com.nurture.TestCases.SignupTest" time="22.167">
+    <system-out><![CDATA[InvalidSignup passed
+InvalidSignup started
+]]></system-out>
+  </testcase>
+  <testcase name="InvalidSignup[Alice, Hazel, Vnc@2020, Vnc@2020, shane@gmail.com](5)" classname="com.nurture.TestCases.SignupTest" time="22.003">
+    <system-out><![CDATA[InvalidSignup passed
+InvalidSignup started
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithBlank" classname="com.nurture.TestCases.ManualLoginTest" time="4.508">
+    <system-out><![CDATA[InvalidSignup passed
+LoginWithBlank started
+Invalid username or password.
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 41124
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:20:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginWithInvalidData[nurtuuree@123@gmail.com, !##,,….((00](1)" classname="com.nurture.TestCases.ManualLoginTest" time="5.164">
+    <system-out><![CDATA[LoginWithBlank passed
+LoginWithInvalidData started
+Invalid username or password.
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithInvalidData[nurtut!!$$$%aa@gmail.com, Nurture$2020](2)" classname="com.nurture.TestCases.ManualLoginTest" time="5.003">
+    <system-out><![CDATA[LoginWithInvalidData passed
+LoginWithInvalidData started
+Invalid username or password.
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithInvalidData[nurturefarmtest1@gmail.com, &lt;&gt;&gt;&lt;#$#%$^](3)" classname="com.nurture.TestCases.ManualLoginTest" time="5.224">
+    <system-out><![CDATA[LoginWithInvalidData passed
+LoginWithInvalidData started
+Invalid username or password.
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithInvalidData[!@###*(*&amp;87899, !%!^%&amp;&gt;&gt;/?](4)" classname="com.nurture.TestCases.ManualLoginTest" time="4.7">
+    <system-out><![CDATA[LoginWithInvalidData passed
+LoginWithInvalidData started
+Invalid username or password.
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithInvalidData[chalamareddy1994@gmail.com, Vnc@2021](5)" classname="com.nurture.TestCases.ManualLoginTest" time="5.04">
+    <system-out><![CDATA[LoginWithInvalidData passed
+LoginWithInvalidData started
+Invalid username or password.
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithValidData[nurturefarmtest4@gmail.com, Nurture@14](1)" classname="com.nurture.TestCases.ManualLoginTest" time="10.467">
+    <system-out><![CDATA[LoginWithInvalidData passed
+LoginWithValidData started
+]]></system-out>
+  </testcase>
+  <testcase name="VerifyTheLogo" classname="com.nurture.TestCases.ManualLoginTest" time="9.008">
+    <system-out><![CDATA[LoginWithValidData passed
+VerifyTheLogo started
+Logo is displayed-->User has been Loggedin
+]]></system-out>
+  </testcase>
+  <testcase name="BuyerDashboard" classname="com.nurture.TestCases.BuyersDashboardTest" time="10.674">
+    <failure message="element click intercepted: Element &lt;a class=&quot;nav-link dashboard-tab&quot; id=&quot;buy-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#buy&quot; role=&quot;tab&quot; aria-controls=&quot;buy&quot; aria-selected=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (416, 591). Other element would receive the click: &lt;div class=&quot;ticker-wrap&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=88.0.4324.182)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;CHALAMA&apos;, ip: &apos;10.2.0.131&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\CHALAMA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d36c69916caef3aef8c67d2d7f22f2c3" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="nav-link dashboard-tab" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="false">...</a> is not clickable at point (416, 591). Other element would receive the click: <div class="ticker-wrap">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHALAMA', ip: '10.2.0.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\CHALAMA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d36c69916caef3aef8c67d2d7f22f2c3
+	at com.nurture.TestCases.BuyersDashboardTest.BuyerDashboard(BuyersDashboardTest.java:14)
+]]></failure>
+    <system-out><![CDATA[VerifyTheLogo passed
+BuyerDashboard started
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 23009
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:21:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="SellerDashboard" classname="com.nurture.TestCases.SellersDashboardTest" time="13.65">
+    <system-out><![CDATA[BuyerDashboard failed
+SellerDashboard started
+User is in Seller Dashboard 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 37734
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:22:03 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="List" classname="com.nurture.TestCases.ListingsTest" time="26.682">
+    <system-out><![CDATA[SellerDashboard passed
+List started
+User is in Respective listing page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 39819
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:22:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginWithNonRegister_GeneralDetails[nurturefarmtest4@gmail.com, Nurture@14, William, Certified seed growers ensure that seeds sold for growing different crops are healthy, high quality, and free of impurities, Richer Lands, contactus@richerland.com, 9620850102, 90225611999, 13245689, 2800, 122 Woodbury Park Drv, CADIA](1)" classname="com.nurture.TestCases.RegistrationTest" time="99.749">
+    <system-out><![CDATA[List passed
+LoginWithNonRegister_GeneralDetails started
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 20189
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:23:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Registration_FinancialDetails[nurturefarmtest4@gmail.com, Richer lands, 90225611999, 122 Woodbury, Park Drv, CADIA, 2800, richerlandseed.com](1)" classname="com.nurture.TestCases.RegistrationTest" time="73.13">
+    <system-out><![CDATA[LoginWithNonRegister_GeneralDetails passed
+Registration_FinancialDetails started
+]]></system-out>
+  </testcase>
+  <testcase name="Registration_TermsACondtions" classname="com.nurture.TestCases.RegistrationTest" time="12.593">
+    <system-out><![CDATA[Registration_FinancialDetails passed
+Registration_TermsACondtions started
+]]></system-out>
+  </testcase>
+  <testcase name="Registration_Complete" classname="com.nurture.TestCases.RegistrationTest" time="9.329">
+    <system-out><![CDATA[Registration_TermsACondtions passed
+Registration_Complete started
+User Verified-->Registration Completed
+]]></system-out>
+  </testcase>
+  <testcase name="Profile" classname="com.nurture.TestCases.ProfileTest" time="21.048">
+    <system-out><![CDATA[Registration_Complete passed
+Profile started
+User is in Profile Screen
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 22398
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:26:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="LoginWithRegisterUSer[nurturefarmtest4@gmail.com, Nurture@14](1)" classname="com.nurture.TestCases.CreateListingTest" time="19.102">
+    <system-out><![CDATA[Profile passed
+LoginWithRegisterUSer started
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 22492
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:27:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="NavtigateCreateListing" classname="com.nurture.TestCases.CreateListingTest" time="9.977">
+    <system-out><![CDATA[LoginWithRegisterUSer passed
+NavtigateCreateListing started
+]]></system-out>
+  </testcase>
+  <testcase name="CreateList[LG Master Super Bremer Seeds, LG Maltstar Super Bremer seeds is known for malt, 100, 10, 300, 4001, 130 Shirley Street, Perth](1)" classname="com.nurture.TestCases.CreateListingTest" time="72.079">
+    <system-out><![CDATA[NavtigateCreateListing passed
+CreateList started
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithListUser[nurturefarmtest4@gmail.com, Nurture@14](1)" classname="com.nurture.TestCases.DeleteListingTest" time="13.784">
+    <system-out><![CDATA[CreateList passed
+LoginWithListUser started
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 28191
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:28:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="DeleteList" classname="com.nurture.TestCases.DeleteListingTest" time="27.312">
+    <system-out><![CDATA[LoginWithListUser passed
+DeleteList started
+user selected parcticular List
+List Deleted Sucessfully
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithBuyerUser[nurturefarmtest8@gmail.com, Nurture@18](1)" classname="com.nurture.TestCases.Contract_OrdersTest" time="12.741">
+    <system-out><![CDATA[DeleteList passed
+LoginWithBuyerUser started
+Login with Buyer Account
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 34984
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:29:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ContractShare" classname="com.nurture.TestCases.Contract_OrdersTest" time="40.472">
+    <system-out><![CDATA[LoginWithBuyerUser passed
+ContractShare started
+LongReach Cobra Seeds For Sale At 300AUD
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithSellerUser[nurturefarmtest9@gmail.com, Nurture@19](1)" classname="com.nurture.TestCases.Contract_OrdersTest" time="10.733">
+    <system-out><![CDATA[ContractShare passed
+LoginWithSellerUser started
+Login with seller Account
+]]></system-out>
+  </testcase>
+  <testcase name="ApproveContract" classname="com.nurture.TestCases.Contract_OrdersTest" time="24.234">
+    <system-out><![CDATA[LoginWithSellerUser passed
+ApproveContract started
+Contract is Approved Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithBuyer[nurturefarmtest8@gmail.com, Nurture@18](1)" classname="com.nurture.TestCases.Contract_OrdersTest" time="10.41">
+    <system-out><![CDATA[ApproveContract passed
+LoginWithBuyer started
+Login with Buyer Account
+]]></system-out>
+  </testcase>
+  <testcase name="BuyerProccedToPayment" classname="com.nurture.TestCases.Contract_OrdersTest" time="42.795">
+    <system-out><![CDATA[LoginWithBuyer passed
+BuyerProccedToPayment started
+751463
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithSeller[nurturefarmtest9@gmail.com, Nurture@19](1)" classname="com.nurture.TestCases.Contract_OrdersTest" time="10.351">
+    <system-out><![CDATA[BuyerProccedToPayment passed
+LoginWithSeller started
+Login with seller Account
+]]></system-out>
+  </testcase>
+  <testcase name="InitiatePayment" classname="com.nurture.TestCases.Contract_OrdersTest" time="27.016">
+    <system-out><![CDATA[LoginWithSeller passed
+InitiatePayment started
+751463
+Payment Initiated Successfully
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithBuyerAccount[nurturefarmtest8@gmail.com, Nurture@18](1)" classname="com.nurture.TestCases.Contract_OrdersTest" time="10.547">
+    <system-out><![CDATA[InitiatePayment passed
+LoginWithBuyerAccount started
+Login with Buyer Account
+]]></system-out>
+  </testcase>
+  <testcase name="DownloadBuyerInvoice" classname="com.nurture.TestCases.Contract_OrdersTest" time="22.853">
+    <system-out><![CDATA[LoginWithBuyerAccount passed
+DownloadBuyerInvoice started
+Order picked up on February 25, 2021
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithSellerAccount[nurturefarmtest9@gmail.com, Nurture@19](1)" classname="com.nurture.TestCases.Contract_OrdersTest" time="10.785">
+    <system-out><![CDATA[DownloadBuyerInvoice passed
+LoginWithSellerAccount started
+Login with seller Account
+]]></system-out>
+  </testcase>
+  <testcase name="DownloadSellerInvoice" classname="com.nurture.TestCases.Contract_OrdersTest" time="20.82">
+    <system-out><![CDATA[LoginWithSellerAccount passed
+DownloadSellerInvoice started
+Order picked up on February 25, 2021
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithBuyerUser[nurturefarmtest8@gmail.com, Nurture@18](1)" classname="com.nurture.TestCases.RejectContractTest" time="15.337">
+    <system-out><![CDATA[DownloadSellerInvoice passed
+LoginWithBuyerUser started
+Login with Buyer Account
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 27433
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 25, 2021 1:34:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="ContractShare" classname="com.nurture.TestCases.RejectContractTest" time="41.154">
+    <system-out><![CDATA[LoginWithBuyerUser passed
+ContractShare started
+LongReach Cobra Seeds For Sale At 300AUD
+]]></system-out>
+  </testcase>
+  <testcase name="LoginWithSellerUser[nurturefarmtest9@gmail.com, Nurture@19](1)" classname="com.nurture.TestCases.RejectContractTest" time="19.737">
+    <system-out><![CDATA[ContractShare passed
+LoginWithSellerUser started
+Login with seller Account
+]]></system-out>
+  </testcase>
+  <testcase name="RejectContract" classname="com.nurture.TestCases.RejectContractTest" time="22.713">
+    <system-out><![CDATA[LoginWithSellerUser passed
+RejectContract started
+]]></system-out>
+  </testcase>
+</testsuite>

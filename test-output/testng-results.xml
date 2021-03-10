@@ -1,384 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-25T00:28:32 IST" name="NurtureFarm Suite" finished-at="2021-02-25T00:34:39 IST" duration-ms="366399">
+  <suite started-at="2021-03-10T00:05:54 IST" name="Default suite" finished-at="2021-03-10T00:08:06 IST" duration-ms="131644">
     <groups>
-      <group name="Regression Test">
-        <method signature="BuyersDashboardTest.BuyerDashboard()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@5d908d47]" name="BuyerDashboard" class="com.nurture.TestCases.BuyersDashboardTest"/>
-        <method signature="ListingsTest.List()[pri:0, instance:com.nurture.TestCases.ListingsTest@1f9f6368]" name="List" class="com.nurture.TestCases.ListingsTest"/>
-        <method signature="ManualLoginTest.LoginWithBlank()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" name="LoginWithBlank" class="com.nurture.TestCases.ManualLoginTest"/>
-        <method signature="ManualLoginTest.LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" name="LoginWithInvalidData" class="com.nurture.TestCases.ManualLoginTest"/>
-        <method signature="ManualLoginTest.LoginWithValidData(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" name="LoginWithValidData" class="com.nurture.TestCases.ManualLoginTest"/>
-        <method signature="ManualLoginTest.VerifyTheLogo()[pri:3, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" name="VerifyTheLogo" class="com.nurture.TestCases.ManualLoginTest"/>
-        <method signature="SellersDashboardTest.SellerDashboard()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@5efa40fe]" name="SellerDashboard" class="com.nurture.TestCases.SellersDashboardTest"/>
-        <method signature="SignupTest.InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@7486b455]" name="InvalidSignup" class="com.nurture.TestCases.SignupTest"/>
-        <method signature="SignupTest.ValidSignupDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.SignupTest@7486b455]" name="ValidSignupDetails" class="com.nurture.TestCases.SignupTest"/>
-      </group> <!-- Regression Test -->
-      <group name="Smoke Test">
-        <method signature="BuyersDashboardTest.BuyerDashboard()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@5d908d47]" name="BuyerDashboard" class="com.nurture.TestCases.BuyersDashboardTest"/>
-        <method signature="ListingsTest.List()[pri:0, instance:com.nurture.TestCases.ListingsTest@1f9f6368]" name="List" class="com.nurture.TestCases.ListingsTest"/>
-        <method signature="ManualLoginTest.LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" name="LoginWithInvalidData" class="com.nurture.TestCases.ManualLoginTest"/>
-        <method signature="ManualLoginTest.LoginWithValidData(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" name="LoginWithValidData" class="com.nurture.TestCases.ManualLoginTest"/>
-        <method signature="ManualLoginTest.VerifyTheLogo()[pri:3, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" name="VerifyTheLogo" class="com.nurture.TestCases.ManualLoginTest"/>
-        <method signature="SellersDashboardTest.SellerDashboard()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@5efa40fe]" name="SellerDashboard" class="com.nurture.TestCases.SellersDashboardTest"/>
-        <method signature="SignupTest.InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@7486b455]" name="InvalidSignup" class="com.nurture.TestCases.SignupTest"/>
-        <method signature="SignupTest.ValidSignupDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.SignupTest@7486b455]" name="ValidSignupDetails" class="com.nurture.TestCases.SignupTest"/>
-      </group> <!-- Smoke Test -->
     </groups>
-    <test started-at="2021-02-25T00:28:32 IST" name="Test" finished-at="2021-02-25T00:34:39 IST" duration-ms="366399">
-      <class name="com.nurture.TestCases.ListingsTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.ListingsTest@1f9f6368]" started-at="2021-02-25T00:34:03 IST" name="initalization" finished-at="2021-02-25T00:34:11 IST" duration-ms="8534" status="PASS">
+    <test started-at="2021-03-10T00:05:54 IST" name="Default test" finished-at="2021-03-10T00:08:06 IST" duration-ms="131644">
+      <class name="com.nurture.TestCases.RejectContractTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.RejectContractTest@3972a855]" started-at="2021-03-10T00:05:54 IST" name="initalization" finished-at="2021-03-10T00:06:11 IST" duration-ms="16916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initalization -->
-        <test-method signature="List()[pri:0, instance:com.nurture.TestCases.ListingsTest@1f9f6368]" started-at="2021-02-25T00:34:11 IST" name="List" finished-at="2021-02-25T00:34:38 IST" duration-ms="26154" status="PASS">
+        <test-method signature="LoginWithBuyerUser(java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.RejectContractTest@3972a855]" started-at="2021-03-10T00:06:22 IST" name="LoginWithBuyerUser" data-provider="BuyerAccount" finished-at="2021-03-10T00:06:34 IST" duration-ms="11876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@18]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- List -->
-        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.ListingsTest@1f9f6368]" started-at="2021-02-25T00:34:38 IST" name="End" finished-at="2021-02-25T00:34:39 IST" duration-ms="1160" status="PASS">
+        </test-method> <!-- LoginWithBuyerUser -->
+        <test-method signature="ContractShare()[pri:1, instance:com.nurture.TestCases.RejectContractTest@3972a855]" started-at="2021-03-10T00:06:34 IST" name="ContractShare" finished-at="2021-03-10T00:07:31 IST" duration-ms="57199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContractShare -->
+        <test-method signature="LoginWithSellerUser(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.RejectContractTest@3972a855]" started-at="2021-03-10T00:07:32 IST" name="LoginWithSellerUser" data-provider="SellerAccount" finished-at="2021-03-10T00:07:44 IST" duration-ms="12788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithSellerUser -->
+        <test-method signature="RejectContract()[pri:3, instance:com.nurture.TestCases.RejectContractTest@3972a855]" started-at="2021-03-10T00:07:44 IST" name="RejectContract" finished-at="2021-03-10T00:08:04 IST" duration-ms="19977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectContract -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.RejectContractTest@3972a855]" started-at="2021-03-10T00:08:04 IST" name="End" finished-at="2021-03-10T00:08:06 IST" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- End -->
-      </class> <!-- com.nurture.TestCases.ListingsTest -->
-      <class name="com.nurture.TestCases.BuyersDashboardTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@5d908d47]" started-at="2021-02-25T00:32:48 IST" name="initalization" finished-at="2021-02-25T00:33:12 IST" duration-ms="24389" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method signature="BuyerDashboard()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@5d908d47]" started-at="2021-02-25T00:33:12 IST" name="BuyerDashboard" finished-at="2021-02-25T00:33:35 IST" duration-ms="22460" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BuyerDashboard -->
-        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@5d908d47]" started-at="2021-02-25T00:33:35 IST" name="End" finished-at="2021-02-25T00:33:37 IST" duration-ms="2821" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-      </class> <!-- com.nurture.TestCases.BuyersDashboardTest -->
-      <class name="com.nurture.TestCases.SellersDashboardTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@5efa40fe]" started-at="2021-02-25T00:33:37 IST" name="initalization" finished-at="2021-02-25T00:33:48 IST" duration-ms="10650" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method signature="SellerDashboard()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@5efa40fe]" started-at="2021-02-25T00:33:48 IST" name="SellerDashboard" finished-at="2021-02-25T00:34:02 IST" duration-ms="14027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SellerDashboard -->
-        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@5efa40fe]" started-at="2021-02-25T00:34:02 IST" name="End" finished-at="2021-02-25T00:34:03 IST" duration-ms="898" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-      </class> <!-- com.nurture.TestCases.SellersDashboardTest -->
-      <class name="com.nurture.TestCases.ManualLoginTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:31:47 IST" name="initalization" finished-at="2021-02-25T00:31:57 IST" duration-ms="10716" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method signature="LoginWithBlank()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:31:57 IST" name="LoginWithBlank" finished-at="2021-02-25T00:32:02 IST" duration-ms="4362" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithBlank -->
-        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:02 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T00:32:08 IST" duration-ms="5429" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nurtuuree@123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[!##,,….((00]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithInvalidData -->
-        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:08 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T00:32:13 IST" duration-ms="5016" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nurtut!!$$$%aa@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nurture$2020]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithInvalidData -->
-        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:13 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T00:32:18 IST" duration-ms="5162" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nurturefarmtest1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[<>><#$#%$^]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithInvalidData -->
-        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:18 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T00:32:22 IST" duration-ms="4722" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[!@###*(*&87899]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[!%!^%&>>/?]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithInvalidData -->
-        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:23 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T00:32:28 IST" duration-ms="5417" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chalamareddy1994@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Vnc@2021]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithInvalidData -->
-        <test-method signature="LoginWithValidData(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:28 IST" name="LoginWithValidData" data-provider="ValidLogin" finished-at="2021-02-25T00:32:39 IST" duration-ms="10348" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nurturefarmtest4@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nurture@14]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithValidData -->
-        <test-method signature="VerifyTheLogo()[pri:3, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:39 IST" name="VerifyTheLogo" finished-at="2021-02-25T00:32:45 IST" duration-ms="6727" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyTheLogo -->
-        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@660acfb]" started-at="2021-02-25T00:32:45 IST" name="End" finished-at="2021-02-25T00:32:48 IST" duration-ms="2264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-      </class> <!-- com.nurture.TestCases.ManualLoginTest -->
-      <class name="com.nurture.TestCases.SignupTest">
-        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:28:32 IST" name="initalization" finished-at="2021-02-25T00:29:05 IST" duration-ms="32158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initalization -->
-        <test-method signature="ValidSignupDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:29:13 IST" name="ValidSignupDetails" data-provider="ValidSignup" finished-at="2021-02-25T00:29:54 IST" duration-ms="41431" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Alice]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hazel]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Vnc@2020]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Vnc@2020]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[nurture8007@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidSignupDetails -->
-        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:29:54 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T00:30:16 IST" duration-ms="22200" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[12#@@13334]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123$%%^^&134]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[31726!&!^]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[%$#%13133]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[12143212465@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidSignup -->
-        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:30:17 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T00:30:39 IST" duration-ms="22331" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Olivia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ella]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[nurture12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[nurture12]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[nurture12@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidSignup -->
-        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:30:39 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T00:31:01 IST" duration-ms="21874" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[samson]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Max]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[nurture12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[QWEEEqrtt234]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[nurture15@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidSignup -->
-        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:31:01 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T00:31:23 IST" duration-ms="22511" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chole]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Harper]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Nurture@12]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Nurture@12]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Nurture1!@12@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidSignup -->
-        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:31:23 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T00:31:45 IST" duration-ms="22024" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Alice]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Hazel]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Vnc@2020]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Vnc@2020]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[shane@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InvalidSignup -->
-        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.SignupTest@7486b455]" started-at="2021-02-25T00:31:45 IST" name="End" finished-at="2021-02-25T00:31:47 IST" duration-ms="1448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- End -->
-      </class> <!-- com.nurture.TestCases.SignupTest -->
-    </test> <!-- Test -->
-  </suite> <!-- NurtureFarm Suite -->
+      </class> <!-- com.nurture.TestCases.RejectContractTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

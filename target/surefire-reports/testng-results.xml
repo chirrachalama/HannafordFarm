@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="43" passed="42" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-25T01:16:50 IST" name="NurtureFarm Suite" finished-at="2021-02-25T01:35:52 IST" duration-ms="1141520">
+    <groups>
+      <group name="Regression Test">
+        <method signature="BuyersDashboardTest.BuyerDashboard()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@7eecb5b8]" name="BuyerDashboard" class="com.nurture.TestCases.BuyersDashboardTest"/>
+        <method signature="ListingsTest.List()[pri:0, instance:com.nurture.TestCases.ListingsTest@57db2b13]" name="List" class="com.nurture.TestCases.ListingsTest"/>
+        <method signature="ManualLoginTest.LoginWithBlank()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" name="LoginWithBlank" class="com.nurture.TestCases.ManualLoginTest"/>
+        <method signature="ManualLoginTest.LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" name="LoginWithInvalidData" class="com.nurture.TestCases.ManualLoginTest"/>
+        <method signature="ManualLoginTest.LoginWithValidData(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" name="LoginWithValidData" class="com.nurture.TestCases.ManualLoginTest"/>
+        <method signature="ManualLoginTest.VerifyTheLogo()[pri:3, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" name="VerifyTheLogo" class="com.nurture.TestCases.ManualLoginTest"/>
+        <method signature="ProfileTest.Profile()[pri:0, instance:com.nurture.TestCases.ProfileTest@5c86a017]" name="Profile" class="com.nurture.TestCases.ProfileTest"/>
+        <method signature="RegistrationTest.LoginWithNonRegister_GeneralDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" name="LoginWithNonRegister_GeneralDetails" class="com.nurture.TestCases.RegistrationTest"/>
+        <method signature="RegistrationTest.Registration_Complete()[pri:3, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" name="Registration_Complete" class="com.nurture.TestCases.RegistrationTest"/>
+        <method signature="RegistrationTest.Registration_FinancialDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" name="Registration_FinancialDetails" class="com.nurture.TestCases.RegistrationTest"/>
+        <method signature="RegistrationTest.Registration_TermsACondtions()[pri:2, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" name="Registration_TermsACondtions" class="com.nurture.TestCases.RegistrationTest"/>
+        <method signature="SellersDashboardTest.SellerDashboard()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@126253fd]" name="SellerDashboard" class="com.nurture.TestCases.SellersDashboardTest"/>
+        <method signature="SignupTest.InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@28cda624]" name="InvalidSignup" class="com.nurture.TestCases.SignupTest"/>
+        <method signature="SignupTest.ValidSignupDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.SignupTest@28cda624]" name="ValidSignupDetails" class="com.nurture.TestCases.SignupTest"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="BuyersDashboardTest.BuyerDashboard()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@7eecb5b8]" name="BuyerDashboard" class="com.nurture.TestCases.BuyersDashboardTest"/>
+        <method signature="ListingsTest.List()[pri:0, instance:com.nurture.TestCases.ListingsTest@57db2b13]" name="List" class="com.nurture.TestCases.ListingsTest"/>
+        <method signature="ManualLoginTest.LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" name="LoginWithInvalidData" class="com.nurture.TestCases.ManualLoginTest"/>
+        <method signature="ManualLoginTest.LoginWithValidData(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" name="LoginWithValidData" class="com.nurture.TestCases.ManualLoginTest"/>
+        <method signature="ManualLoginTest.VerifyTheLogo()[pri:3, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" name="VerifyTheLogo" class="com.nurture.TestCases.ManualLoginTest"/>
+        <method signature="ProfileTest.Profile()[pri:0, instance:com.nurture.TestCases.ProfileTest@5c86a017]" name="Profile" class="com.nurture.TestCases.ProfileTest"/>
+        <method signature="SellersDashboardTest.SellerDashboard()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@126253fd]" name="SellerDashboard" class="com.nurture.TestCases.SellersDashboardTest"/>
+        <method signature="SignupTest.InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@28cda624]" name="InvalidSignup" class="com.nurture.TestCases.SignupTest"/>
+        <method signature="SignupTest.ValidSignupDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.SignupTest@28cda624]" name="ValidSignupDetails" class="com.nurture.TestCases.SignupTest"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test started-at="2021-02-25T01:16:50 IST" name="Test" finished-at="2021-02-25T01:35:52 IST" duration-ms="1141520">
+      <class name="com.nurture.TestCases.ListingsTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.ListingsTest@57db2b13]" started-at="2021-02-25T01:22:23 IST" name="initalization" finished-at="2021-02-25T01:22:32 IST" duration-ms="9014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="List()[pri:0, instance:com.nurture.TestCases.ListingsTest@57db2b13]" started-at="2021-02-25T01:22:32 IST" name="List" finished-at="2021-02-25T01:22:59 IST" duration-ms="26688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- List -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.ListingsTest@57db2b13]" started-at="2021-02-25T01:22:59 IST" name="End" finished-at="2021-02-25T01:23:00 IST" duration-ms="1399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.ListingsTest -->
+      <class name="com.nurture.TestCases.RegistrationTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" started-at="2021-02-25T01:23:00 IST" name="initalization" finished-at="2021-02-25T01:23:10 IST" duration-ms="9754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginWithNonRegister_GeneralDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" started-at="2021-02-25T01:23:10 IST" name="LoginWithNonRegister_GeneralDetails" data-provider="Registration" finished-at="2021-02-25T01:24:50 IST" duration-ms="99763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@14]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[William]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Certified seed growers ensure that seeds sold for growing different crops are healthy, high quality, and free of impurities]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Richer Lands]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[contactus@richerland.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9620850102]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[90225611999]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[13245689]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2800]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[122 Woodbury Park Drv]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[CADIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithNonRegister_GeneralDetails -->
+        <test-method signature="Registration_FinancialDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" started-at="2021-02-25T01:24:52 IST" name="Registration_FinancialDetails" data-provider="StripeDetails" finished-at="2021-02-25T01:26:05 IST" duration-ms="73127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Richer lands]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[90225611999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[122 Woodbury]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Park Drv]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[CADIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2800]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[richerlandseed.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_FinancialDetails -->
+        <test-method signature="Registration_TermsACondtions()[pri:2, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" started-at="2021-02-25T01:26:05 IST" name="Registration_TermsACondtions" finished-at="2021-02-25T01:26:17 IST" duration-ms="12590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_TermsACondtions -->
+        <test-method signature="Registration_Complete()[pri:3, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" started-at="2021-02-25T01:26:18 IST" name="Registration_Complete" finished-at="2021-02-25T01:26:27 IST" duration-ms="9333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_Complete -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.RegistrationTest@475c9c31]" started-at="2021-02-25T01:26:27 IST" name="End" finished-at="2021-02-25T01:26:30 IST" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.RegistrationTest -->
+      <class name="com.nurture.TestCases.Contract_OrdersTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:29:46 IST" name="initalization" finished-at="2021-02-25T01:29:54 IST" duration-ms="8176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginWithBuyerUser(java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:29:54 IST" name="LoginWithBuyerUser" data-provider="BuyerAccount" finished-at="2021-02-25T01:30:07 IST" duration-ms="12757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithBuyerUser -->
+        <test-method signature="ContractShare()[pri:1, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:30:07 IST" name="ContractShare" finished-at="2021-02-25T01:30:48 IST" duration-ms="40473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContractShare -->
+        <test-method signature="LoginWithSellerUser(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:30:48 IST" name="LoginWithSellerUser" data-provider="SellerAccount" finished-at="2021-02-25T01:30:58 IST" duration-ms="10733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithSellerUser -->
+        <test-method signature="ApproveContract()[pri:3, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:30:58 IST" name="ApproveContract" finished-at="2021-02-25T01:31:23 IST" duration-ms="24234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApproveContract -->
+        <test-method signature="LoginWithBuyer(java.lang.String, java.lang.String)[pri:4, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:31:23 IST" name="LoginWithBuyer" data-provider="BuyerAccount" finished-at="2021-02-25T01:31:33 IST" duration-ms="10409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithBuyer -->
+        <test-method signature="BuyerProccedToPayment()[pri:5, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:31:33 IST" name="BuyerProccedToPayment" finished-at="2021-02-25T01:32:16 IST" duration-ms="42796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyerProccedToPayment -->
+        <test-method signature="LoginWithSeller(java.lang.String, java.lang.String)[pri:6, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:32:16 IST" name="LoginWithSeller" data-provider="SellerAccount" finished-at="2021-02-25T01:32:26 IST" duration-ms="10351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithSeller -->
+        <test-method signature="InitiatePayment()[pri:7, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:32:26 IST" name="InitiatePayment" finished-at="2021-02-25T01:32:53 IST" duration-ms="27014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiatePayment -->
+        <test-method signature="LoginWithBuyerAccount(java.lang.String, java.lang.String)[pri:8, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:32:53 IST" name="LoginWithBuyerAccount" data-provider="BuyerAccount" finished-at="2021-02-25T01:33:04 IST" duration-ms="10548" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithBuyerAccount -->
+        <test-method signature="DownloadBuyerInvoice()[pri:9, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:33:04 IST" name="DownloadBuyerInvoice" finished-at="2021-02-25T01:33:27 IST" duration-ms="22857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadBuyerInvoice -->
+        <test-method signature="LoginWithSellerAccount(java.lang.String, java.lang.String)[pri:10, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:33:27 IST" name="LoginWithSellerAccount" data-provider="SellerAccount" finished-at="2021-02-25T01:33:38 IST" duration-ms="10786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithSellerAccount -->
+        <test-method signature="DownloadSellerInvoice()[pri:11, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:33:38 IST" name="DownloadSellerInvoice" finished-at="2021-02-25T01:33:59 IST" duration-ms="20820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadSellerInvoice -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.Contract_OrdersTest@71687585]" started-at="2021-02-25T01:33:59 IST" name="End" finished-at="2021-02-25T01:34:00 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.Contract_OrdersTest -->
+      <class name="com.nurture.TestCases.BuyersDashboardTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@7eecb5b8]" started-at="2021-02-25T01:21:30 IST" name="initalization" finished-at="2021-02-25T01:21:46 IST" duration-ms="15941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="BuyerDashboard()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@7eecb5b8]" started-at="2021-02-25T01:21:46 IST" name="BuyerDashboard" finished-at="2021-02-25T01:21:56 IST" duration-ms="10673" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="nav-link dashboard-tab" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="false">...</a> is not clickable at point (416, 591). Other element would receive the click: <div class="ticker-wrap">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHALAMA', ip: '10.2.0.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\CHALAMA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d36c69916caef3aef8c67d2d7f22f2c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="nav-link dashboard-tab" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="false">...</a> is not clickable at point (416, 591). Other element would receive the click: <div class="ticker-wrap">...</div>
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHALAMA', ip: '10.2.0.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\CHALAMA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d36c69916caef3aef8c67d2d7f22f2c3
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.nurture.PageObjects.BuyersDashboard.Buyersdashboard(BuyersDashboard.java:43)
+at com.nurture.TestCases.BuyersDashboardTest.BuyerDashboard(BuyersDashboardTest.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyerDashboard -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.BuyersDashboardTest@7eecb5b8]" started-at="2021-02-25T01:21:56 IST" name="End" finished-at="2021-02-25T01:21:58 IST" duration-ms="1577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.BuyersDashboardTest -->
+      <class name="com.nurture.TestCases.CreateListingTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.CreateListingTest@5c7bfdc1]" started-at="2021-02-25T01:27:02 IST" name="initalization" finished-at="2021-02-25T01:27:12 IST" duration-ms="9898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginWithRegisterUSer(java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.CreateListingTest@5c7bfdc1]" started-at="2021-02-25T01:27:12 IST" name="LoginWithRegisterUSer" data-provider="ValidLogin" finished-at="2021-02-25T01:27:31 IST" duration-ms="19121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithRegisterUSer -->
+        <test-method signature="NavtigateCreateListing()[pri:1, instance:com.nurture.TestCases.CreateListingTest@5c7bfdc1]" started-at="2021-02-25T01:27:31 IST" name="NavtigateCreateListing" finished-at="2021-02-25T01:27:41 IST" duration-ms="9977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavtigateCreateListing -->
+        <test-method signature="CreateList(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.CreateListingTest@5c7bfdc1]" started-at="2021-02-25T01:27:41 IST" name="CreateList" data-provider="CreateListing" finished-at="2021-02-25T01:28:54 IST" duration-ms="72080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LG Master Super Bremer Seeds]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LG Maltstar Super Bremer seeds is known for malt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[300]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4001]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[130 Shirley Street]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Perth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateList -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.CreateListingTest@5c7bfdc1]" started-at="2021-02-25T01:28:54 IST" name="End" finished-at="2021-02-25T01:28:55 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.CreateListingTest -->
+      <class name="com.nurture.TestCases.RejectContractTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.RejectContractTest@1807f5a7]" started-at="2021-02-25T01:34:00 IST" name="initalization" finished-at="2021-02-25T01:34:10 IST" duration-ms="10423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginWithBuyerUser(java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.RejectContractTest@1807f5a7]" started-at="2021-02-25T01:34:10 IST" name="LoginWithBuyerUser" data-provider="BuyerAccount" finished-at="2021-02-25T01:34:25 IST" duration-ms="15351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest8@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithBuyerUser -->
+        <test-method signature="ContractShare()[pri:1, instance:com.nurture.TestCases.RejectContractTest@1807f5a7]" started-at="2021-02-25T01:34:25 IST" name="ContractShare" finished-at="2021-02-25T01:35:07 IST" duration-ms="41154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContractShare -->
+        <test-method signature="LoginWithSellerUser(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.RejectContractTest@1807f5a7]" started-at="2021-02-25T01:35:07 IST" name="LoginWithSellerUser" data-provider="SellerAccount" finished-at="2021-02-25T01:35:26 IST" duration-ms="19737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest9@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithSellerUser -->
+        <test-method signature="RejectContract()[pri:3, instance:com.nurture.TestCases.RejectContractTest@1807f5a7]" started-at="2021-02-25T01:35:26 IST" name="RejectContract" finished-at="2021-02-25T01:35:49 IST" duration-ms="22713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RejectContract -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.RejectContractTest@1807f5a7]" started-at="2021-02-25T01:35:49 IST" name="End" finished-at="2021-02-25T01:35:52 IST" duration-ms="2874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.RejectContractTest -->
+      <class name="com.nurture.TestCases.SellersDashboardTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@126253fd]" started-at="2021-02-25T01:21:58 IST" name="initalization" finished-at="2021-02-25T01:22:09 IST" duration-ms="10610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="SellerDashboard()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@126253fd]" started-at="2021-02-25T01:22:09 IST" name="SellerDashboard" finished-at="2021-02-25T01:22:22 IST" duration-ms="13680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SellerDashboard -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.SellersDashboardTest@126253fd]" started-at="2021-02-25T01:22:22 IST" name="End" finished-at="2021-02-25T01:22:23 IST" duration-ms="1143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.SellersDashboardTest -->
+      <class name="com.nurture.TestCases.ManualLoginTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:20:25 IST" name="initalization" finished-at="2021-02-25T01:20:38 IST" duration-ms="13632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginWithBlank()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:20:38 IST" name="LoginWithBlank" finished-at="2021-02-25T01:20:43 IST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithBlank -->
+        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:20:43 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T01:20:48 IST" duration-ms="5168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurtuuree@123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!##,,….((00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidData -->
+        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:20:48 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T01:20:53 IST" duration-ms="5004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurtut!!$$$%aa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture$2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidData -->
+        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:20:53 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T01:20:59 IST" duration-ms="5223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<>><#$#%$^]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidData -->
+        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:20:59 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T01:21:03 IST" duration-ms="4701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@###*(*&87899]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[!%!^%&>>/?]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidData -->
+        <test-method signature="LoginWithInvalidData(java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:21:03 IST" name="LoginWithInvalidData" data-provider="InvalidLogin" finished-at="2021-02-25T01:21:08 IST" duration-ms="5038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chalamareddy1994@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vnc@2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidData -->
+        <test-method signature="LoginWithValidData(java.lang.String, java.lang.String)[pri:2, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:21:09 IST" name="LoginWithValidData" data-provider="ValidLogin" finished-at="2021-02-25T01:21:19 IST" duration-ms="10467" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithValidData -->
+        <test-method signature="VerifyTheLogo()[pri:3, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:21:19 IST" name="VerifyTheLogo" finished-at="2021-02-25T01:21:28 IST" duration-ms="9006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTheLogo -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.ManualLoginTest@1500b2f3]" started-at="2021-02-25T01:21:28 IST" name="End" finished-at="2021-02-25T01:21:30 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.ManualLoginTest -->
+      <class name="com.nurture.TestCases.SignupTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:16:51 IST" name="initalization" finished-at="2021-02-25T01:17:32 IST" duration-ms="41295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="ValidSignupDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:17:45 IST" name="ValidSignupDetails" data-provider="ValidSignup" finished-at="2021-02-25T01:18:29 IST" duration-ms="43698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hazel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vnc@2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vnc@2020]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[nurture8007@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidSignupDetails -->
+        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:18:30 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T01:18:52 IST" duration-ms="22679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12#@@13334]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123$%%^^&134]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31726!&!^]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[%$#%13133]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12143212465@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSignup -->
+        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:18:52 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T01:19:15 IST" duration-ms="22695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Olivia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ella]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nurture12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[nurture12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[nurture12@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSignup -->
+        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:19:15 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T01:19:37 IST" duration-ms="22114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samson]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Max]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nurture12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[QWEEEqrtt234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[nurture15@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSignup -->
+        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:19:37 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T01:19:59 IST" duration-ms="22168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chole]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Harper]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nurture@12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nurture@12]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nurture1!@12@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSignup -->
+        <test-method signature="InvalidSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:19:59 IST" name="InvalidSignup" data-provider="InvalidSignup" finished-at="2021-02-25T01:20:21 IST" duration-ms="22002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hazel]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vnc@2020]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vnc@2020]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[shane@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidSignup -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.SignupTest@28cda624]" started-at="2021-02-25T01:20:21 IST" name="End" finished-at="2021-02-25T01:20:25 IST" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.SignupTest -->
+      <class name="com.nurture.TestCases.DeleteListingTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.DeleteListingTest@5276d6ee]" started-at="2021-02-25T01:28:55 IST" name="initalization" finished-at="2021-02-25T01:29:02 IST" duration-ms="7438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="LoginWithListUser(java.lang.String, java.lang.String)[pri:0, instance:com.nurture.TestCases.DeleteListingTest@5276d6ee]" started-at="2021-02-25T01:29:02 IST" name="LoginWithListUser" data-provider="ValidLogin" finished-at="2021-02-25T01:29:16 IST" duration-ms="13810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurturefarmtest4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurture@14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithListUser -->
+        <test-method signature="DeleteList()[pri:1, instance:com.nurture.TestCases.DeleteListingTest@5276d6ee]" started-at="2021-02-25T01:29:16 IST" name="DeleteList" finished-at="2021-02-25T01:29:44 IST" duration-ms="27311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteList -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.DeleteListingTest@5276d6ee]" started-at="2021-02-25T01:29:44 IST" name="End" finished-at="2021-02-25T01:29:46 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.DeleteListingTest -->
+      <class name="com.nurture.TestCases.ProfileTest">
+        <test-method is-config="true" signature="initalization()[pri:0, instance:com.nurture.TestCases.ProfileTest@5c86a017]" started-at="2021-02-25T01:26:30 IST" name="initalization" finished-at="2021-02-25T01:26:39 IST" duration-ms="9616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalization -->
+        <test-method signature="Profile()[pri:0, instance:com.nurture.TestCases.ProfileTest@5c86a017]" started-at="2021-02-25T01:26:39 IST" name="Profile" finished-at="2021-02-25T01:27:00 IST" duration-ms="21081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Profile -->
+        <test-method is-config="true" signature="End()[pri:0, instance:com.nurture.TestCases.ProfileTest@5c86a017]" started-at="2021-02-25T01:27:00 IST" name="End" finished-at="2021-02-25T01:27:02 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- com.nurture.TestCases.ProfileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- NurtureFarm Suite -->
+</testng-results>

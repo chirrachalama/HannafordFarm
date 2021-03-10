@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-NurtureFarm_Suite" class="navigator-link">
+              <span class="suite-name border-failed">NurtureFarm Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-NurtureFarm_Suite" class="navigator-link ">
+                    <span>C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-NurtureFarm_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-NurtureFarm_Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-NurtureFarm_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-NurtureFarm_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-NurtureFarm_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-NurtureFarm_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">43 methods, 1 failed,   42 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-NurtureFarm_Suite" class="hide-methods failed suite-NurtureFarm_Suite"> (hide)</a> <!-- hide-methods failed suite-NurtureFarm_Suite -->
+                      <a href="#" panel-name="suite-NurtureFarm_Suite" class="show-methods failed suite-NurtureFarm_Suite"> (show)</a> <!-- show-methods failed suite-NurtureFarm_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-NurtureFarm_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.BuyersDashboardTest" class="method navigator-link" hash-for-method="BuyerDashboard">BuyerDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-NurtureFarm_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-NurtureFarm_Suite" class="hide-methods passed suite-NurtureFarm_Suite"> (hide)</a> <!-- hide-methods passed suite-NurtureFarm_Suite -->
+                      <a href="#" panel-name="suite-NurtureFarm_Suite" class="show-methods passed suite-NurtureFarm_Suite"> (show)</a> <!-- show-methods passed suite-NurtureFarm_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-NurtureFarm_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="ApproveContract">ApproveContract</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="BuyerProccedToPayment">BuyerProccedToPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="ContractShare">ContractShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RejectContractTest" class="method navigator-link" hash-for-method="ContractShare">ContractShare</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.CreateListingTest" class="method navigator-link" hash-for-method="CreateList(LG Master Super Bremer Seeds, LG Maltstar Super Bremer seeds is known for malt, 100, 10, 300, 4001, ...)">CreateList(LG Master Super Bremer Seeds, LG Maltstar Super Bremer seeds is known for malt, 100, 10, 300, 4001, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.DeleteListingTest" class="method navigator-link" hash-for-method="DeleteList">DeleteList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="DownloadBuyerInvoice">DownloadBuyerInvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="DownloadSellerInvoice">DownloadSellerInvoice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="InitiatePayment">InitiatePayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.SignupTest" class="method navigator-link" hash-for-method="InvalidSignup(12#@@13334, 123$%%^^&amp;134, 31726!&amp;!^, %$#%13133, 12143212465@gmail.com)">InvalidSignup(12#@@13334, 123$%%^^&134, 31726!&!^, %$#%13133, 12143212465@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.SignupTest" class="method navigator-link" hash-for-method="InvalidSignup(Chole, Harper, Nurture@12, Nurture@12, Nurture1!@12@gmail.com)">InvalidSignup(Chole, Harper, Nurture@12, Nurture@12, Nurture1!@12@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.SignupTest" class="method navigator-link" hash-for-method="InvalidSignup(Olivia, Ella, nurture12, nurture12, nurture12@gmail.com)">InvalidSignup(Olivia, Ella, nurture12, nurture12, nurture12@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.SignupTest" class="method navigator-link" hash-for-method="InvalidSignup(samson, Max, nurture12, QWEEEqrtt234, nurture15@gmail.com)">InvalidSignup(samson, Max, nurture12, QWEEEqrtt234, nurture15@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.SignupTest" class="method navigator-link" hash-for-method="InvalidSignup(Alice, Hazel, Vnc@2020, Vnc@2020, shane@gmail.com)">InvalidSignup(Alice, Hazel, Vnc@2020, Vnc@2020, shane@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ListingsTest" class="method navigator-link" hash-for-method="List">List</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="LoginWithBlank">LoginWithBlank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="LoginWithBuyer(nurturefarmtest8@gmail.com, Nurture@18)">LoginWithBuyer(nurturefarmtest8@gmail.com, Nurture@18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="LoginWithBuyerAccount(nurturefarmtest8@gmail.com, Nurture@18)">LoginWithBuyerAccount(nurturefarmtest8@gmail.com, Nurture@18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)">LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RejectContractTest" class="method navigator-link" hash-for-method="LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)">LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="LoginWithInvalidData(nurturefarmtest1@gmail.com, &lt;&gt;&gt;&lt;#$#%$^)">LoginWithInvalidData(nurturefarmtest1@gmail.com, <>><#$#%$^)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="LoginWithInvalidData(!@###*(*&amp;87899, !%!^%&amp;&gt;&gt;/?)">LoginWithInvalidData(!@###*(*&87899, !%!^%&>>/?)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="LoginWithInvalidData(nurtut!!$$$%aa@gmail.com, Nurture$2020)">LoginWithInvalidData(nurtut!!$$$%aa@gmail.com, Nurture$2020)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="LoginWithInvalidData(chalamareddy1994@gmail.com, Vnc@2021)">LoginWithInvalidData(chalamareddy1994@gmail.com, Vnc@2021)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="LoginWithInvalidData(nurtuuree@123@gmail.com, !##,,….((00)">LoginWithInvalidData(nurtuuree@123@gmail.com, !##,,….((00)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.DeleteListingTest" class="method navigator-link" hash-for-method="LoginWithListUser(nurturefarmtest4@gmail.com, Nurture@14)">LoginWithListUser(nurturefarmtest4@gmail.com, Nurture@14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RegistrationTest" class="method navigator-link" hash-for-method="LoginWithNonRegister_GeneralDetails(nurturefarmtest4@gmail.com, Nurture@14, William, Certified seed growers ensure that seeds sold for g...)">LoginWithNonRegister_GeneralDetails(nurturefarmtest4@gmail.com, Nurture@14, William, Certified seed growers ensure that seeds sold for g...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.CreateListingTest" class="method navigator-link" hash-for-method="LoginWithRegisterUSer(nurturefarmtest4@gmail.com, Nurture@14)">LoginWithRegisterUSer(nurturefarmtest4@gmail.com, Nurture@14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="LoginWithSeller(nurturefarmtest9@gmail.com, Nurture@19)">LoginWithSeller(nurturefarmtest9@gmail.com, Nurture@19)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="LoginWithSellerAccount(nurturefarmtest9@gmail.com, Nurture@19)">LoginWithSellerAccount(nurturefarmtest9@gmail.com, Nurture@19)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.Contract_OrdersTest" class="method navigator-link" hash-for-method="LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)">LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RejectContractTest" class="method navigator-link" hash-for-method="LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)">LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="LoginWithValidData(nurturefarmtest4@gmail.com, Nurture@14)">LoginWithValidData(nurturefarmtest4@gmail.com, Nurture@14)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.CreateListingTest" class="method navigator-link" hash-for-method="NavtigateCreateListing">NavtigateCreateListing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ProfileTest" class="method navigator-link" hash-for-method="Profile">Profile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RegistrationTest" class="method navigator-link" hash-for-method="Registration_Complete">Registration_Complete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RegistrationTest" class="method navigator-link" hash-for-method="Registration_FinancialDetails(nurturefarmtest4@gmail.com, Richer lands, 90225611999, 122 Woodbury, Park Drv, CADIA, 2800, richerla...)">Registration_FinancialDetails(nurturefarmtest4@gmail.com, Richer lands, 90225611999, 122 Woodbury, Park Drv, CADIA, 2800, richerla...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RegistrationTest" class="method navigator-link" hash-for-method="Registration_TermsACondtions">Registration_TermsACondtions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.RejectContractTest" class="method navigator-link" hash-for-method="RejectContract">RejectContract</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.SellersDashboardTest" class="method navigator-link" hash-for-method="SellerDashboard">SellerDashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.SignupTest" class="method navigator-link" hash-for-method="ValidSignupDetails(Alice, Hazel, Vnc@2020, Vnc@2020, nurture8007@gmail.com)">ValidSignupDetails(Alice, Hazel, Vnc@2020, Vnc@2020, nurture8007@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-NurtureFarm_Suite" title="com.nurture.TestCases.ManualLoginTest" class="method navigator-link" hash-for-method="VerifyTheLogo">VerifyTheLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-NurtureFarm_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-NurtureFarm_Suite" class="panel NurtureFarm_Suite">
+          <div class="suite-NurtureFarm_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nurture.TestCases.BuyersDashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BuyerDashboard">
+                  </a> <!-- BuyerDashboard -->
+                  <span class="method-name">BuyerDashboard</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link dashboard-tab&quot; id=&quot;buy-tab&quot; data-toggle=&quot;tab&quot; href=&quot;#buy&quot; role=&quot;tab&quot; aria-controls=&quot;buy&quot; aria-selected=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (416, 591). Other element would receive the click: &lt;div class=&quot;ticker-wrap&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=88.0.4324.182)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CHALAMA&apos;, ip: &apos;10.2.0.131&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\CHALAMA\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d36c69916caef3aef8c67d2d7f22f2c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at com.nurture.PageObjects.BuyersDashboard.Buyersdashboard(BuyersDashboard.java:43)
+	at com.nurture.TestCases.BuyersDashboardTest.BuyerDashboard(BuyersDashboardTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-failed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.ProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Profile">
+                  </a> <!-- Profile -->
+                  <span class="method-name">Profile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithNonRegister_GeneralDetails(nurturefarmtest4@gmail.com, Nurture@14, William, Certified seed growers ensure that seeds sold for g...)">
+                  </a> <!-- LoginWithNonRegister_GeneralDetails(nurturefarmtest4@gmail.com, Nurture@14, William, Certified seed growers ensure that seeds sold for g...) -->
+                  <span class="method-name">LoginWithNonRegister_GeneralDetails</span>
+                  <span class="parameters">(nurturefarmtest4@gmail.com, Nurture@14, William, Certified seed growers ensure that seeds sold for growing different crops are healthy, high quality, and free of impurities, Richer Lands, contactus@richerland.com, 9620850102, 90225611999, 13245689, 2800, 122 Woodbury Park Drv, CADIA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_Complete">
+                  </a> <!-- Registration_Complete -->
+                  <span class="method-name">Registration_Complete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_FinancialDetails(nurturefarmtest4@gmail.com, Richer lands, 90225611999, 122 Woodbury, Park Drv, CADIA, 2800, richerla...)">
+                  </a> <!-- Registration_FinancialDetails(nurturefarmtest4@gmail.com, Richer lands, 90225611999, 122 Woodbury, Park Drv, CADIA, 2800, richerla...) -->
+                  <span class="method-name">Registration_FinancialDetails</span>
+                  <span class="parameters">(nurturefarmtest4@gmail.com, Richer lands, 90225611999, 122 Woodbury, Park Drv, CADIA, 2800, richerlandseed.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Registration_TermsACondtions">
+                  </a> <!-- Registration_TermsACondtions -->
+                  <span class="method-name">Registration_TermsACondtions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.DeleteListingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteList">
+                  </a> <!-- DeleteList -->
+                  <span class="method-name">DeleteList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithListUser(nurturefarmtest4@gmail.com, Nurture@14)">
+                  </a> <!-- LoginWithListUser(nurturefarmtest4@gmail.com, Nurture@14) -->
+                  <span class="method-name">LoginWithListUser</span>
+                  <span class="parameters">(nurturefarmtest4@gmail.com, Nurture@14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.ManualLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithBlank">
+                  </a> <!-- LoginWithBlank -->
+                  <span class="method-name">LoginWithBlank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInvalidData(nurturefarmtest1@gmail.com, &lt;&gt;&gt;&lt;#$#%$^)">
+                  </a> <!-- LoginWithInvalidData(nurturefarmtest1@gmail.com, <>><#$#%$^) -->
+                  <span class="method-name">LoginWithInvalidData</span>
+                  <span class="parameters">(nurturefarmtest1@gmail.com, <>><#$#%$^)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInvalidData(!@###*(*&amp;87899, !%!^%&amp;&gt;&gt;/?)">
+                  </a> <!-- LoginWithInvalidData(!@###*(*&87899, !%!^%&>>/?) -->
+                  <span class="method-name">LoginWithInvalidData</span>
+                  <span class="parameters">(!@###*(*&87899, !%!^%&>>/?)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInvalidData(nurtut!!$$$%aa@gmail.com, Nurture$2020)">
+                  </a> <!-- LoginWithInvalidData(nurtut!!$$$%aa@gmail.com, Nurture$2020) -->
+                  <span class="method-name">LoginWithInvalidData</span>
+                  <span class="parameters">(nurtut!!$$$%aa@gmail.com, Nurture$2020)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInvalidData(chalamareddy1994@gmail.com, Vnc@2021)">
+                  </a> <!-- LoginWithInvalidData(chalamareddy1994@gmail.com, Vnc@2021) -->
+                  <span class="method-name">LoginWithInvalidData</span>
+                  <span class="parameters">(chalamareddy1994@gmail.com, Vnc@2021)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithInvalidData(nurtuuree@123@gmail.com, !##,,….((00)">
+                  </a> <!-- LoginWithInvalidData(nurtuuree@123@gmail.com, !##,,….((00) -->
+                  <span class="method-name">LoginWithInvalidData</span>
+                  <span class="parameters">(nurtuuree@123@gmail.com, !##,,….((00)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithValidData(nurturefarmtest4@gmail.com, Nurture@14)">
+                  </a> <!-- LoginWithValidData(nurturefarmtest4@gmail.com, Nurture@14) -->
+                  <span class="method-name">LoginWithValidData</span>
+                  <span class="parameters">(nurturefarmtest4@gmail.com, Nurture@14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTheLogo">
+                  </a> <!-- VerifyTheLogo -->
+                  <span class="method-name">VerifyTheLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.CreateListingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateList(LG Master Super Bremer Seeds, LG Maltstar Super Bremer seeds is known for malt, 100, 10, 300, 4001, ...)">
+                  </a> <!-- CreateList(LG Master Super Bremer Seeds, LG Maltstar Super Bremer seeds is known for malt, 100, 10, 300, 4001, ...) -->
+                  <span class="method-name">CreateList</span>
+                  <span class="parameters">(LG Master Super Bremer Seeds, LG Maltstar Super Bremer seeds is known for malt, 100, 10, 300, 4001, 130 Shirley Street, Perth)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithRegisterUSer(nurturefarmtest4@gmail.com, Nurture@14)">
+                  </a> <!-- LoginWithRegisterUSer(nurturefarmtest4@gmail.com, Nurture@14) -->
+                  <span class="method-name">LoginWithRegisterUSer</span>
+                  <span class="parameters">(nurturefarmtest4@gmail.com, Nurture@14)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavtigateCreateListing">
+                  </a> <!-- NavtigateCreateListing -->
+                  <span class="method-name">NavtigateCreateListing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.ListingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="List">
+                  </a> <!-- List -->
+                  <span class="method-name">List</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.RejectContractTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContractShare">
+                  </a> <!-- ContractShare -->
+                  <span class="method-name">ContractShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)">
+                  </a> <!-- LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18) -->
+                  <span class="method-name">LoginWithBuyerUser</span>
+                  <span class="parameters">(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)">
+                  </a> <!-- LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19) -->
+                  <span class="method-name">LoginWithSellerUser</span>
+                  <span class="parameters">(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RejectContract">
+                  </a> <!-- RejectContract -->
+                  <span class="method-name">RejectContract</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.SellersDashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SellerDashboard">
+                  </a> <!-- SellerDashboard -->
+                  <span class="method-name">SellerDashboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.SignupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidSignup(12#@@13334, 123$%%^^&amp;134, 31726!&amp;!^, %$#%13133, 12143212465@gmail.com)">
+                  </a> <!-- InvalidSignup(12#@@13334, 123$%%^^&134, 31726!&!^, %$#%13133, 12143212465@gmail.com) -->
+                  <span class="method-name">InvalidSignup</span>
+                  <span class="parameters">(12#@@13334, 123$%%^^&134, 31726!&!^, %$#%13133, 12143212465@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidSignup(Chole, Harper, Nurture@12, Nurture@12, Nurture1!@12@gmail.com)">
+                  </a> <!-- InvalidSignup(Chole, Harper, Nurture@12, Nurture@12, Nurture1!@12@gmail.com) -->
+                  <span class="method-name">InvalidSignup</span>
+                  <span class="parameters">(Chole, Harper, Nurture@12, Nurture@12, Nurture1!@12@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidSignup(Olivia, Ella, nurture12, nurture12, nurture12@gmail.com)">
+                  </a> <!-- InvalidSignup(Olivia, Ella, nurture12, nurture12, nurture12@gmail.com) -->
+                  <span class="method-name">InvalidSignup</span>
+                  <span class="parameters">(Olivia, Ella, nurture12, nurture12, nurture12@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidSignup(samson, Max, nurture12, QWEEEqrtt234, nurture15@gmail.com)">
+                  </a> <!-- InvalidSignup(samson, Max, nurture12, QWEEEqrtt234, nurture15@gmail.com) -->
+                  <span class="method-name">InvalidSignup</span>
+                  <span class="parameters">(samson, Max, nurture12, QWEEEqrtt234, nurture15@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidSignup(Alice, Hazel, Vnc@2020, Vnc@2020, shane@gmail.com)">
+                  </a> <!-- InvalidSignup(Alice, Hazel, Vnc@2020, Vnc@2020, shane@gmail.com) -->
+                  <span class="method-name">InvalidSignup</span>
+                  <span class="parameters">(Alice, Hazel, Vnc@2020, Vnc@2020, shane@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidSignupDetails(Alice, Hazel, Vnc@2020, Vnc@2020, nurture8007@gmail.com)">
+                  </a> <!-- ValidSignupDetails(Alice, Hazel, Vnc@2020, Vnc@2020, nurture8007@gmail.com) -->
+                  <span class="method-name">ValidSignupDetails</span>
+                  <span class="parameters">(Alice, Hazel, Vnc@2020, Vnc@2020, nurture8007@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+          <div class="suite-NurtureFarm_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nurture.TestCases.Contract_OrdersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApproveContract">
+                  </a> <!-- ApproveContract -->
+                  <span class="method-name">ApproveContract</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BuyerProccedToPayment">
+                  </a> <!-- BuyerProccedToPayment -->
+                  <span class="method-name">BuyerProccedToPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ContractShare">
+                  </a> <!-- ContractShare -->
+                  <span class="method-name">ContractShare</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadBuyerInvoice">
+                  </a> <!-- DownloadBuyerInvoice -->
+                  <span class="method-name">DownloadBuyerInvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadSellerInvoice">
+                  </a> <!-- DownloadSellerInvoice -->
+                  <span class="method-name">DownloadSellerInvoice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InitiatePayment">
+                  </a> <!-- InitiatePayment -->
+                  <span class="method-name">InitiatePayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithBuyer(nurturefarmtest8@gmail.com, Nurture@18)">
+                  </a> <!-- LoginWithBuyer(nurturefarmtest8@gmail.com, Nurture@18) -->
+                  <span class="method-name">LoginWithBuyer</span>
+                  <span class="parameters">(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithBuyerAccount(nurturefarmtest8@gmail.com, Nurture@18)">
+                  </a> <!-- LoginWithBuyerAccount(nurturefarmtest8@gmail.com, Nurture@18) -->
+                  <span class="method-name">LoginWithBuyerAccount</span>
+                  <span class="parameters">(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)">
+                  </a> <!-- LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18) -->
+                  <span class="method-name">LoginWithBuyerUser</span>
+                  <span class="parameters">(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithSeller(nurturefarmtest9@gmail.com, Nurture@19)">
+                  </a> <!-- LoginWithSeller(nurturefarmtest9@gmail.com, Nurture@19) -->
+                  <span class="method-name">LoginWithSeller</span>
+                  <span class="parameters">(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithSellerAccount(nurturefarmtest9@gmail.com, Nurture@19)">
+                  </a> <!-- LoginWithSellerAccount(nurturefarmtest9@gmail.com, Nurture@19) -->
+                  <span class="method-name">LoginWithSellerAccount</span>
+                  <span class="parameters">(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)">
+                  </a> <!-- LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19) -->
+                  <span class="method-name">LoginWithSellerUser</span>
+                  <span class="parameters">(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-NurtureFarm_Suite-class-passed -->
+        </div> <!-- panel NurtureFarm_Suite -->
+        <div panel-name="test-xml-NurtureFarm_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\CHALAMA\eclipse-workspace\HannafordFarmExchange\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;NurtureFarm Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.nurture.Listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nurture.TestCases.SignupTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.ManualLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.BuyersDashboardTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.SellersDashboardTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.ListingsTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.RegistrationTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.ProfileTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.CreateListingTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.DeleteListingTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.Contract_OrdersTest&quot;/&gt;
+      &lt;class name=&quot;com.nurture.TestCases.RejectContractTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- NurtureFarm Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-NurtureFarm_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for NurtureFarm Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-NurtureFarm_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for NurtureFarm Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BuyerDashboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">InvalidSignup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">List</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginWithBlank</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginWithInvalidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginWithNonRegister_GeneralDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginWithValidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Profile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Registration_Complete</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Registration_FinancialDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Registration_TermsACondtions</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SellerDashboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidSignupDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheLogo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BuyerDashboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">InvalidSignup</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">List</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginWithInvalidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginWithValidData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Profile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SellerDashboard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ValidSignupDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyTheLogo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-NurtureFarm_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for NurtureFarm Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_NurtureFarm_Suite');
+function tableData_NurtureFarm_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(43);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginWithNonRegister_GeneralDetails')
+data.setCell(0, 2, 'com.nurture.TestCases.RegistrationTest')
+data.setCell(0, 3, 99763);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Registration_FinancialDetails')
+data.setCell(1, 2, 'com.nurture.TestCases.RegistrationTest')
+data.setCell(1, 3, 73127);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'CreateList')
+data.setCell(2, 2, 'com.nurture.TestCases.CreateListingTest')
+data.setCell(2, 3, 72080);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ValidSignupDetails')
+data.setCell(3, 2, 'com.nurture.TestCases.SignupTest')
+data.setCell(3, 3, 43698);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'BuyerProccedToPayment')
+data.setCell(4, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(4, 3, 42796);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ContractShare')
+data.setCell(5, 2, 'com.nurture.TestCases.RejectContractTest')
+data.setCell(5, 3, 41154);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ContractShare')
+data.setCell(6, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(6, 3, 40473);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DeleteList')
+data.setCell(7, 2, 'com.nurture.TestCases.DeleteListingTest')
+data.setCell(7, 3, 27311);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'InitiatePayment')
+data.setCell(8, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(8, 3, 27014);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'List')
+data.setCell(9, 2, 'com.nurture.TestCases.ListingsTest')
+data.setCell(9, 3, 26688);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ApproveContract')
+data.setCell(10, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(10, 3, 24234);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DownloadBuyerInvoice')
+data.setCell(11, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(11, 3, 22857);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'RejectContract')
+data.setCell(12, 2, 'com.nurture.TestCases.RejectContractTest')
+data.setCell(12, 3, 22713);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'InvalidSignup')
+data.setCell(13, 2, 'com.nurture.TestCases.SignupTest')
+data.setCell(13, 3, 22695);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'InvalidSignup')
+data.setCell(14, 2, 'com.nurture.TestCases.SignupTest')
+data.setCell(14, 3, 22679);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'InvalidSignup')
+data.setCell(15, 2, 'com.nurture.TestCases.SignupTest')
+data.setCell(15, 3, 22168);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'InvalidSignup')
+data.setCell(16, 2, 'com.nurture.TestCases.SignupTest')
+data.setCell(16, 3, 22114);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'InvalidSignup')
+data.setCell(17, 2, 'com.nurture.TestCases.SignupTest')
+data.setCell(17, 3, 22002);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Profile')
+data.setCell(18, 2, 'com.nurture.TestCases.ProfileTest')
+data.setCell(18, 3, 21081);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'DownloadSellerInvoice')
+data.setCell(19, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(19, 3, 20820);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'LoginWithSellerUser')
+data.setCell(20, 2, 'com.nurture.TestCases.RejectContractTest')
+data.setCell(20, 3, 19737);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'LoginWithRegisterUSer')
+data.setCell(21, 2, 'com.nurture.TestCases.CreateListingTest')
+data.setCell(21, 3, 19121);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'LoginWithBuyerUser')
+data.setCell(22, 2, 'com.nurture.TestCases.RejectContractTest')
+data.setCell(22, 3, 15351);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'LoginWithListUser')
+data.setCell(23, 2, 'com.nurture.TestCases.DeleteListingTest')
+data.setCell(23, 3, 13810);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'SellerDashboard')
+data.setCell(24, 2, 'com.nurture.TestCases.SellersDashboardTest')
+data.setCell(24, 3, 13680);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'LoginWithBuyerUser')
+data.setCell(25, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(25, 3, 12757);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Registration_TermsACondtions')
+data.setCell(26, 2, 'com.nurture.TestCases.RegistrationTest')
+data.setCell(26, 3, 12590);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'LoginWithSellerAccount')
+data.setCell(27, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(27, 3, 10786);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'LoginWithSellerUser')
+data.setCell(28, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(28, 3, 10733);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'BuyerDashboard')
+data.setCell(29, 2, 'com.nurture.TestCases.BuyersDashboardTest')
+data.setCell(29, 3, 10673);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'LoginWithBuyerAccount')
+data.setCell(30, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(30, 3, 10548);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'LoginWithValidData')
+data.setCell(31, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(31, 3, 10467);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'LoginWithBuyer')
+data.setCell(32, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(32, 3, 10409);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'LoginWithSeller')
+data.setCell(33, 2, 'com.nurture.TestCases.Contract_OrdersTest')
+data.setCell(33, 3, 10351);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'NavtigateCreateListing')
+data.setCell(34, 2, 'com.nurture.TestCases.CreateListingTest')
+data.setCell(34, 3, 9977);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'Registration_Complete')
+data.setCell(35, 2, 'com.nurture.TestCases.RegistrationTest')
+data.setCell(35, 3, 9333);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'VerifyTheLogo')
+data.setCell(36, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(36, 3, 9006);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'LoginWithInvalidData')
+data.setCell(37, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(37, 3, 5223);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'LoginWithInvalidData')
+data.setCell(38, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(38, 3, 5168);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'LoginWithInvalidData')
+data.setCell(39, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(39, 3, 5038);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'LoginWithInvalidData')
+data.setCell(40, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(40, 3, 5004);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'LoginWithInvalidData')
+data.setCell(41, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(41, 3, 4701);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'LoginWithBlank')
+data.setCell(42, 2, 'com.nurture.TestCases.ManualLoginTest')
+data.setCell(42, 3, 4527);
+window.suiteTableData['NurtureFarm_Suite']= { tableData: data, tableDiv: 'times-div-NurtureFarm_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 minutes</span>
+              <div id="times-div-NurtureFarm_Suite">
+              </div> <!-- times-div-NurtureFarm_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-NurtureFarm_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for NurtureFarm Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-NurtureFarm_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-NurtureFarm_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ValidSignupDetails(Alice, Hazel, Vnc@2020, Vnc@2020, nurture8007@gmail.com)</span>
+                <span class="method-start">54952 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidSignup(12#@@13334, 123$%%^^&134, 31726!&!^, %$#%13133, 12143212465@gmail.com)</span>
+                <span class="method-start">99123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidSignup(Olivia, Ella, nurture12, nurture12, nurture12@gmail.com)</span>
+                <span class="method-start">121804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidSignup(samson, Max, nurture12, QWEEEqrtt234, nurture15@gmail.com)</span>
+                <span class="method-start">144500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidSignup(Chole, Harper, Nurture@12, Nurture@12, Nurture1!@12@gmail.com)</span>
+                <span class="method-start">166615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InvalidSignup(Alice, Hazel, Vnc@2020, Vnc@2020, shane@gmail.com)</span>
+                <span class="method-start">188784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">210788 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.ManualLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">214139 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithBlank</span>
+                <span class="method-start">227772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInvalidData(nurtuuree@123@gmail.com, !##,,….((00)</span>
+                <span class="method-start">232739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInvalidData(nurtut!!$$$%aa@gmail.com, Nurture$2020)</span>
+                <span class="method-start">237908 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInvalidData(nurturefarmtest1@gmail.com, <>><#$#%$^)</span>
+                <span class="method-start">242913 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInvalidData(!@###*(*&87899, !%!^%&>>/?)</span>
+                <span class="method-start">248137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithInvalidData(chalamareddy1994@gmail.com, Vnc@2021)</span>
+                <span class="method-start">252840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithValidData(nurturefarmtest4@gmail.com, Nurture@14)</span>
+                <span class="method-start">258059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyTheLogo</span>
+                <span class="method-start">268527 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">277535 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.BuyersDashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">279135 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">BuyerDashboard</span>
+                <span class="method-start">295076 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">305777 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.SellersDashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">307354 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SellerDashboard</span>
+                <span class="method-start">317965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">331647 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.ListingsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">332791 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">List</span>
+                <span class="method-start">341805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">368494 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">369893 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithNonRegister_GeneralDetails(nurturefarmtest4@gmail.com, Nurture@14, William, Certified seed growers ensure that seeds sold for g...)</span>
+                <span class="method-start">379900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration_FinancialDetails(nurturefarmtest4@gmail.com, Richer lands, 90225611999, 122 Woodbury, Park Drv, CADIA, 2800, richerla...)</span>
+                <span class="method-start">481241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration_TermsACondtions</span>
+                <span class="method-start">554372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Registration_Complete</span>
+                <span class="method-start">566966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">576300 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.ProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">579224 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Profile</span>
+                <span class="method-start">588841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">609923 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.CreateListingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">611412 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithRegisterUSer(nurturefarmtest4@gmail.com, Nurture@14)</span>
+                <span class="method-start">621479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NavtigateCreateListing</span>
+                <span class="method-start">640602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CreateList(LG Master Super Bremer Seeds, LG Maltstar Super Bremer seeds is known for malt, 100, 10, 300, 4001, ...)</span>
+                <span class="method-start">650884 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">722964 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.DeleteListingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">724093 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithListUser(nurturefarmtest4@gmail.com, Nurture@14)</span>
+                <span class="method-start">731955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteList</span>
+                <span class="method-start">745766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">773079 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.Contract_OrdersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">775420 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                <span class="method-start">783819 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContractShare</span>
+                <span class="method-start">796578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                <span class="method-start">837141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ApproveContract</span>
+                <span class="method-start">847875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithBuyer(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                <span class="method-start">872222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BuyerProccedToPayment</span>
+                <span class="method-start">882632 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithSeller(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                <span class="method-start">925500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InitiatePayment</span>
+                <span class="method-start">935852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithBuyerAccount(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                <span class="method-start">962941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DownloadBuyerInvoice</span>
+                <span class="method-start">973490 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithSellerAccount(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                <span class="method-start">996426 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DownloadSellerInvoice</span>
+                <span class="method-start">1007213 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">1028033 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nurture.TestCases.RejectContractTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initalization</span>
+                <span class="method-start">1029008 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithBuyerUser(nurturefarmtest8@gmail.com, Nurture@18)</span>
+                <span class="method-start">1039526 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ContractShare</span>
+                <span class="method-start">1054878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginWithSellerUser(nurturefarmtest9@gmail.com, Nurture@19)</span>
+                <span class="method-start">1096093 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RejectContract</span>
+                <span class="method-start">1115831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">End</span>
+                <span class="method-start">1138544 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
